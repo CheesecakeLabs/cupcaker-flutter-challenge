@@ -1,0 +1,5 @@
+- repo: https://github.com/CheesecakeLabs/gjira
+  rev: master
+  hooks:
+    - id: gjira
+      args: ['--board=board-name', '--regex=board-name-\d+', '--template=.github/COMMIT_TEMPLATE']

@@ -1,0 +1,43 @@
+part of 'custom_text.dart';
+
+enum TypographyStyle {
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  C1,
+  C2,
+  C3,
+  P1,
+  P2,
+  P3,
+  L1,
+  L2,
+  L3,
+  A1,
+  A2,
+  P4,
+  P5,
+}
+
+Map<TypographyStyle, TextStyle> typographyStyle = {
+  TypographyStyle.H1: h1,
+  TypographyStyle.H2: h2,
+  TypographyStyle.H3: h3,
+  TypographyStyle.H4: h4,
+  TypographyStyle.H5: h5,
+  TypographyStyle.C1: c1,
+  TypographyStyle.C2: c2,
+  TypographyStyle.C3: c3,
+  TypographyStyle.P1: p1,
+  TypographyStyle.P2: p2,
+  TypographyStyle.P3: p3,
+  TypographyStyle.L1: l1,
+  TypographyStyle.L2: l2,
+  TypographyStyle.L3: l3,
+  TypographyStyle.A1: a1,
+  TypographyStyle.A2: a2,
+  TypographyStyle.P4: p4,
+  TypographyStyle.P5: p5,
+};

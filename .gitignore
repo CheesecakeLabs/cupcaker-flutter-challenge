@@ -1,0 +1,11 @@
+# OS generated files #
+.DS_Store
+Thumbs.db
+.tmp/
+src/api/schema.gql
+
+# IDE #
+.idea/
+*.swp
+.awcache
+.vscode/

@@ -1,0 +1,1 @@
+class UnauthorizedException with Exception {}

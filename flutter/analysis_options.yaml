@@ -1,0 +1,18 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    avoid_print: false
+    always_declare_return_types: true
+    always_specify_types: true
+    camel_case_extensions: true
+    camel_case_types: true
+    constant_identifier_names: false
+    eol_at_end_of_file: true
+    lines_longer_than_80_chars: false
+    prefer_single_quotes: true
+    prefer_null_aware_method_calls: true
+    require_trailing_commas: true
+    unnecessary_await_in_return: true
+    unawaited_futures: true
+    use_key_in_widget_constructors: false
